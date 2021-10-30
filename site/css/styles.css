@@ -1,0 +1,141 @@
+
+body{
+	font-size: 16px;
+	/*color: greenyellow;*/
+	background-color: white;
+}
+
+#header-nav{
+	background-color: lightgray;
+	border-radius: 0;
+	border: 2px solid black;
+	/*position: fixed; To make fixed the header on the top*/
+	width: 100%;
+	/*bottom: 0; If I want to fix the header on the bottom of the page*/
+}
+
+@media (max-width: 750px) {  /*This media query is to prevent overlapping NavBar with main content in mobile view*/
+    .navbar-fixed-top {
+        position: relative;
+        /*top: auto;*/
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+     body {
+        margin: 0;
+    }
+
+.jumbotron .container-fluid{
+	background-color: lightgray;
+	border: none;
+	margin-right: 40px;
+	margin-left: 40px; 
+	color: black;
+	font-family: cursive;
+}
+
+}
+
+@media (min-width: 751px) {  /*I had to include manually more margin on top to make similar both the mobile and desktop versions*/
+	body{
+		margin-top: 80px;
+	}
+
+.jumbotron .container-fluid{
+	background-color: lightgray;
+	border: none;
+	margin-right: 15px;
+	margin-left: 15px; 
+	color: black;
+	font-family: cursive;
+}
+
+}
+	.jumbotron {		/*Style for Our Menu */
+		padding: 0;
+	}
+
+.container{
+	margin-left: 0;
+	margin-right: 0;
+	color: green;
+	text-align: left;
+}
+
+.navbar-brand p{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	text-align: right;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    position: relative;
+    border: 1.5px solid black;
+}
+
+#nav-list{ /*With this id I can access to style the items of the dropdown button*/
+	margin-top: 0px; /*The entire menu when visible is moved down from the top*/
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-family: cursive;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.container-fluid{
+border: 1px solid black;
+}
+
+
+
+.navbar-header button.navbar-toggle{
+	    border: 3px solid black;
+	    margin-bottom: 0px;
+	    margin-top: 4px;
+}
+
+.navbar-header button:hover{
+border: 3px solid white;
+}
+
+.navbar-header button:active{
+border: 3px solid white;
+}
+
+.jumbotron p{		/*Style for Our Menu */
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 20px ;
+	margin-right: 0;
+}
+
+
+.jumbotron{
+	background-color: white;
+}
+
+.col-xs-12 {
+    width: 100%;
+    border: none;
+  }
+
+#food-container{
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+
+/*It's still pending how to change iconn bars color when hovering and clicking*/
